@@ -1,6 +1,7 @@
 # Easy Gallery  - A Wordpress plugin
 `Latest Version 2.0.0`
-As the name says Easy Gallery is a easy to use image gallery plugin for wordpress. It is compatible with Latest wordpress versions.
+
+As the name suggest Easy Gallery is a easy to use image gallery plugin for wordpress. It is compatible with Latest wordpress versions.
 #### Following Gallery styles are available by default
   - Fancybox
   - Swipebox
