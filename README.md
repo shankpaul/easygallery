@@ -19,4 +19,12 @@ Activate the plugin from plugins page in wordpress
 
 #### Screeshots
 
--Sidebar Menu
+ - Home Screen
+    ![Home Screen](https://github.com/shankpaul/easygallery/blob/master/screenshots/img1.png "Plugin home screen")
+ - Add Images Screen
+    ![Add Image Screen](https://github.com/shankpaul/easygallery/blob/master/screenshots/img2.png "Add Image screen")
+ - List Screen
+    ![List Screen](https://github.com/shankpaul/easygallery/blob/master/screenshots/img1.png "List Image screen")
+ - Create Shortcode
+    ![Create Shortcode Screen](https://github.com/shankpaul/easygallery/blob/master/screenshots/img1.png "Create Shortcode screen")
+
