@@ -1,6 +1,7 @@
-# Easy Gallery - A Wordpress plugin
+# Easy Gallery  - A Wordpress plugin
+`Latest Version 2.0.0`
 
-As the name says Easy Gallery is a easy to use image gallery plugin for wordpress. It is compatible with Latest wordpress versions.
+As the name suggest Easy Gallery is a easy to use image gallery plugin for wordpress. It is compatible with Latest wordpress versions.
 #### Following Gallery styles are available by default
   - Fancybox
   - Swipebox
@@ -19,4 +20,12 @@ Activate the plugin from plugins page in wordpress
 
 #### Screeshots
 
--Sidebar Menu
+ - Home Screen
+    ![Home Screen](https://github.com/shankpaul/easygallery/blob/master/screenshots/img1.png "Plugin home screen")
+ - Add Images Screen
+    ![Add Image Screen](https://github.com/shankpaul/easygallery/blob/master/screenshots/img2.png "Add Image screen")
+ - List Screen
+    ![List Screen](https://github.com/shankpaul/easygallery/blob/master/screenshots/img3.png "List Image screen")
+ - Create Shortcode
+    ![Create Shortcode Screen](https://github.com/shankpaul/easygallery/blob/master/screenshots/img4.png "Create Shortcode screen")
+
