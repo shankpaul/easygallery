@@ -45,7 +45,7 @@
 
 		$p = new pagination;
 		$p->items($items);
-					$p->limit(8); // Limit entries per page
+					$p->limit(12); // Limit entries per page
 					$p->target(get_permalink().'admin.php?page=easy-gallery-home');
 					//$p->urlFriendly();
 					if(isset($p->paging))
