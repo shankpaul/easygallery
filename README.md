@@ -24,7 +24,7 @@ Activate the plugin from plugins page in wordpress
  - Add Images Screen
     ![Add Image Screen](https://github.com/shankpaul/easygallery/blob/master/screenshots/img2.png "Add Image screen")
  - List Screen
-    ![List Screen](https://github.com/shankpaul/easygallery/blob/master/screenshots/img1.png "List Image screen")
+    ![List Screen](https://github.com/shankpaul/easygallery/blob/master/screenshots/img3.png "List Image screen")
  - Create Shortcode
-    ![Create Shortcode Screen](https://github.com/shankpaul/easygallery/blob/master/screenshots/img1.png "Create Shortcode screen")
+    ![Create Shortcode Screen](https://github.com/shankpaul/easygallery/blob/master/screenshots/img3.png "Create Shortcode screen")
 
