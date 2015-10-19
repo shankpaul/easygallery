@@ -4,7 +4,6 @@
  * 'EASY_GALLERY_PLUGIN_URL' is a globaly defined variable it contains plugin base url
  */
 ?>
-
 <script language="JavaScript" src="<?php echo EASY_GALLERY_PLUGIN_URL; ?>js/jquery.js"></script>
 <link rel="stylesheet" type="text/css" href="<?php echo EASY_GALLERY_PLUGIN_URL; ?>css/easy-gallery.css" />
 <div class="wrap">
@@ -38,7 +37,6 @@ if(@$_POST['easy_settings_submit'])
   echo '<div class="updated fade below-h2"><p>Settings Updated<br>'.$msg.'</p></div>'; 
 
 }
-
 ?>
 <form method="post" onsubmit="return easy_validate_settings();">
   <div class="postbox ">
@@ -115,8 +113,7 @@ if(@$_POST['easy_settings_submit'])
 function easy_validate_settings()
 {
 		//return true;
-		er="";
-		
+		er="";		
 		if($('#easy_tw').val().trim()=="")
 		{
 			er+="Please Enter Thumbnail Width\n";
@@ -124,8 +121,7 @@ function easy_validate_settings()
 		else if((parseInt($('#easy_tw').val()))<=0 || isNaN($('#easy_tw').val()))
 		{
 			er+="Thumbnail Width Should be Greater Than zero \n";
-		}
-		
+		}		
 		if($('#easy_th').val().trim()=="")
 		{
 			er+="Please Enter Thumbnail Height\n";
@@ -133,8 +129,7 @@ function easy_validate_settings()
 		else if(parseInt($('#easy_th').val())<=0 || isNaN($('#easy_th').val()))
 		{
 			er+="Thumbnail Height Should be Greater Than zero \n";
-		}
-		
+		}		
 		if($('#easy_w').val().trim()=="")
 		{
 			er+="Please Enter Image Width\n";
@@ -142,8 +137,7 @@ function easy_validate_settings()
 		else if(parseInt($('#easy_w').val())<=0 || isNaN($('#easy_w').val()))
 		{
 			er+="Image Width Should be Greater Than zero \n";
-		}
-		
+		}		
 		if($('#easy_h').val().trim()=="")
 		{
 			er+="Please Enter Image Height\n";
@@ -151,8 +145,7 @@ function easy_validate_settings()
 		else if(parseInt($('#easy_h').val())<=0 || isNaN($('#easy_h').val()))
 		{
 			er+="Image Height Should be Greater Than zero \n";
-		}	
-		
+		}			
 		if(er!="")
 		{
 			alert("Corrections: \n"+er);

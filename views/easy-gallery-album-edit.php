@@ -4,7 +4,6 @@
  * 'EASY_GALLERY_PLUGIN_URL' is a globaly defined variable it contains plugin base url
  */
 ?>
-
 <script language="JavaScript" src="<?php echo EASY_GALLERY_PLUGIN_URL; ?>js/jquery.js"></script>
 <link rel="stylesheet" type="text/css" href="<?php echo EASY_GALLERY_PLUGIN_URL; ?>css/easy-gallery.css" />
 <div class="wrap">

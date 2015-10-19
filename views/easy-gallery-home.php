@@ -4,13 +4,10 @@
  * 'EASY_GALLERY_PLUGIN_URL' is a globaly defined variable it contains plugin base url
  */
 ?>
-
 <script language="JavaScript" src="<?php echo EASY_GALLERY_PLUGIN_URL; ?>js/jquery.js"></script>
 <script language="JavaScript" src="<?php echo EASY_GALLERY_PLUGIN_URL; ?>js/remodal.js"></script>
 <link rel="stylesheet" type="text/css" href="<?php echo EASY_GALLERY_PLUGIN_URL; ?>css/easy-gallery.css" />
 <link rel="stylesheet" type="text/css" href="<?php echo EASY_GALLERY_PLUGIN_URL; ?>css/remodal.css" />
-
-
 <div class="wrap">
 	<div  class="easy_album_ico"></div>
 	<h2 style="padding-top:20px;  color: #455A64;

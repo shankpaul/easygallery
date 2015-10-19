@@ -1,7 +1,6 @@
 <?php 
 function show_easy_gallery($atts,$content=null)
-{
-	
+{	
 	$order='desc';
 	$pagesql='';
 	$limit='';
@@ -13,34 +12,27 @@ function show_easy_gallery($atts,$content=null)
 	$album='';
 	global  $wpdb;
 	//echo "select * from easy_photos order  by $order limit $limit offset $offset";
-	
-	
 	if(isset($atts['order']))
 		$order=$atts['order'];
 	if(isset($atts['theme']))
 	{
 		$theme=trim($atts['theme']);
 		if($theme!='fancybox'&&$theme!='swipebox')
-		{
-			
-			$theme='fancybox';
-			
+		{			
+			$theme='fancybox';			
 		}
 	}
 	if(isset($atts['view']))
 	{
 		$view=trim($atts['view']);
 		if($view!='album'&&$view!='image')
-		{
-			
-			$view='album';
-			
+		{			
+			$view='album';			
 		}         
 	}
 	if(isset($atts['album']))
 	{
-		$album=trim($atts['album']);
-		
+		$album=trim($atts['album']);		
 	}
 	if(isset($atts['limit']))
 	{	
@@ -52,8 +44,7 @@ function show_easy_gallery($atts,$content=null)
 	}
 	$order=strtolower($order);
 	if($order!='asc'&&$order!='desc')
-		$order='desc';
-	
+		$order='desc';	
 	if(isset($atts['pagination']))
 	{
 		$page_st=trim($atts['pagination']);
@@ -65,22 +56,18 @@ function show_easy_gallery($atts,$content=null)
 		$page=true;
 		$sql="  SELECT DISTINCT(a.album_id) FROM easy_album a,easy_photos b WHERE a.album_id=b.album_id AND a.disabled=0 AND b.disabled=0";
 		if($album!='')
-			$sql = $sql." and a.album_id = $album";
-		
+			$sql = $sql." and a.album_id = $album";		
 		if($view=='image')
 		{
 			$sql="select * from easy_photos  where album_id not in(select album_id from easy_album b where b.disabled=1) and disabled=0";
 			if($album!='')
 				$sql= $sql." and album_id = $album";
-
 		}
-
 
 		$rows = $wpdb->get_results($sql);	
 		$items=count($rows);
 		if($items > 0)
-		{				
-			
+		{	
 			$p = new pagination;
 			$p->items($items);
 					$p->limit($count); // Limit entries per page
@@ -110,8 +97,7 @@ function show_easy_gallery($atts,$content=null)
 					$limit = "LIMIT " . ($p->page - 1) * $p->limit  . ", " . $p->limit;
 					
 				}else
-				echo "No Images";
-				
+				echo "No Images";				
 				
 			}
 			else
@@ -243,5 +229,3 @@ function show_easy_gallery($atts,$content=null)
         }
 
         ?>
-
-        

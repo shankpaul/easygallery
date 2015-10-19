@@ -4,7 +4,6 @@
  * 'EASY_GALLERY_PLUGIN_URL' is a globaly defined variable it contains plugin base url
  */
 ?>
-
 <script language="JavaScript" src="<?php echo EASY_GALLERY_PLUGIN_URL; ?>js/jquery.js"></script>
 <script language="JavaScript" src="<?php echo EASY_GALLERY_PLUGIN_URL; ?>thirdparty/sort/jquery.tablesorter.min.js"></script>
 <script language="JavaScript" src="<?php echo EASY_GALLERY_PLUGIN_URL; ?>thirdparty/sort/jquery.tablesorter.pager.js"></script>
@@ -30,8 +29,7 @@ function putcenter(id)
 			<a class=" add-new-h2" href="<?php echo get_option('siteurl'); ?>/wp-admin/admin.php?page=easy-gallery-home&ac=add">Add Photos</a>	 
 		</h2>
 	</div>
-	<br />   
-
+	<br /> 
 	<?php 
 	$albumid="";
 	$nodata=false;
@@ -900,5 +898,4 @@ function delete_upload()
 		document.getElementById('select_all').checked=false;
 	}
 }
-
 </script>
